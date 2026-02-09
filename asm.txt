@@ -1,0 +1,36 @@
+1 MOV R1 , #9
+2 MOV a , R0
+
+3 MOV R1 , a
+4 SQRT R0
+5 MOV b , R0
+
+6 MOV R0 , a
+7 MOV R0 , #3
+8 POW R0 , R1
+9 MOV c , R0
+
+10 MOV R1 , b
+11 LOG R0
+12 MOV R0 , a
+13 SIN R0
+14 ADD R0 , R1
+15 MOV d , R0
+
+16 MOV R0 , c
+17 COS R0
+18 MOV R1 , d
+19 TAN R0
+20 MUL R0 , R1
+21 MOV e , R0
+
+22 MOV R1 , a
+23 NEG R0
+24 MOV R0 , b
+25 ADD R0 , R1
+26 ABS R0
+27 MOV R0 , #2
+28 EXP R0
+29 DIV R0 , R1
+30 MOV f , R0
+

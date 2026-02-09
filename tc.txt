@@ -1,0 +1,10 @@
+ADD #3, #3
+MOV a, #3
+MOV R0, a
+MUL R0, #2
+MOV R1, b
+ADD R1, R0
+MOV b, R1
+MOV R0, b
+MOV R1, R0
+NOT R1
